@@ -79,7 +79,8 @@ const Login = () => {
         <>
         <div className='container d-flex justify-content-center align-items-center'>
             <div className='customImg'>
-                <img src='/images/1.png'/>
+            <img src={`${process.env.PUBLIC_URL}/images/1.png`} alt="Your Image" />
+
             </div>
             <div className='d-flex justify-content-center align-items-center border mt-5 mb-5 ms-5 rounded  customWidth'>
                 <div className="login-container">
